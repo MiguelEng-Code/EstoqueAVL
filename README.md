@@ -47,3 +47,12 @@ O IntelliJ deve detectar o arquivo pom.xml automaticamente. Clique no ícone de 
 Navegue até a classe principal:
 src/main/java/br/com/miguel/estoqueavl/mainApp.java 
 Clique com o botão direito e selecione Run 'mainApp'.
+
+
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e9a06311-2093-481e-8df5-3ee38a85a9ce" />
+
+
+<img width="801" height="632" alt="image" src="https://github.com/user-attachments/assets/da33a7eb-3f63-44e8-8ca3-2826ad9b82ca" />
+
+
+<img width="810" height="641" alt="image" src="https://github.com/user-attachments/assets/43458b9b-6629-4335-a07d-eaab21749da0" />
