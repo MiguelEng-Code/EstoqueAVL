@@ -29,7 +29,7 @@ Pré-requisitos:
 - Java JDK 21 instalado.
 - Maven (geralmente incluso nas IDEs modernas).
 - IntelliJ IDEA (Recomendado) ou outra IDE com suporte a JavaFX.
-- 
+  
 1)	Abrir no IntelliJ:
 Abra a IDE e selecione Open.
 Navegue até a pasta do projeto e selecione o arquivo pom.xml ou a pasta raiz.
