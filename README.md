@@ -1,16 +1,20 @@
 | Sistema de Gerenciamento de Estoque com Árvore AVL |	
 
 1. Descrição da Aplicação
+   
   Este projeto consiste em uma aplicação Desktop desenvolvida em Java (JDK 21) utilizando a biblioteca gráfica JavaFX. O objetivo do software é simular um sistema eficiente de controle de estoque, permitindo o cadastro, visualização, busca e remoção de produtos.
   A arquitetura do projeto segue o padrão MVC (Model-View-Controller), garantindo a separação de responsabilidades entre a interface do usuário (.fxml), a lógica de controle e a estrutura de dados.
+  
 
 •	Principais Funcionalidades:
   * Interface Gráfica Moderna: Telas desenhadas com Scene Builder, utilizando design responsivo e ícones.
   *	CRUD de Produtos: Cadastro de itens com validação de dados (ID numérico, preço, etc.).
   *	Busca Otimizada: Localização instantânea de produtos pelo ID ou filtragem por nome.
   *	Persistência de Dados: O sistema utiliza a biblioteca GSON para salvar os dados automaticamente em um arquivo JSON (estoque_dados.json) ao fechar a aplicação, e recarregá-los ao iniciar, garantindo que nenhum registro seja perdido.
+    
 
 2. Justificativa do Uso da Estrutura de Dados (Árvore AVL)
+   
   A escolha da Árvore AVL (Adelson-Velsky e Landis) como estrutura de dados central do projeto deve-se à necessidade de alta performance nas operações de busca e manutenção da ordem dos dados.
   Em um sistema de estoque, a operação mais crítica é a busca de um produto pelo seu código (ID).
   Em uma Lista/Array: A busca teria complexidade linear O(n). Para encontrar um item em 1 milhão de registros, o sistema poderia ter que verificar 1 milhão de posições.
